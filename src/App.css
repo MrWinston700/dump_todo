@@ -33,7 +33,7 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
-  .app, .todo, .todo-list {
+   body {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     display: grid;
     grid-template-columns: 1fr;
