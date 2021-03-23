@@ -37,15 +37,15 @@ function TodoForm({addTodo}) {
 function App() {
   const [todos, setTodos] = useState([
     {
-      text: 'learning hooks',
+      text: 'go to the store',
       isCompleted: false 
     },
     {
-      text: 'learning hooks 2',
+      text: 'talk to crush',
       isCompleted: false 
     },
     {
-      text: 'learning hooks 4',
+      text: 'sleep early',
       isCompleted: false 
     }
 
